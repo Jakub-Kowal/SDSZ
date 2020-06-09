@@ -73,6 +73,6 @@ for i in A:
 
 extent = (0, 68, 0, 50)
 fig, axs = plt.subplots()
-axs.imshow(A, interpolation='bilinear', cmap='hsv',origin='upper',extent=extent)
+axs.imshow(A, interpolation='bilinear', cmap='plasma',origin='upper',extent=extent)
 
 plt.show()
